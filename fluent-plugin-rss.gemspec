@@ -3,8 +3,8 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-rss"
-  spec.version       = "0.0.2"
+  spec.name          = "fluent-plugin-test-rss"
+  spec.version       = "0.0.1.1"
   spec.authors       = ["harukasan"]
   spec.email         = ["harukasan@pixiv.com"]
   spec.summary       = %q{Fluent input plugin to fetch RSS feed items}
