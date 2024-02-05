@@ -2,7 +2,7 @@ require 'rss'
 
 module Fluent
   class RSSInput < Fluent::Input
-    Plugin.register_input 'rss', self
+    Plugin.register_input('rss', self)
 
     config_param :tag, :string
     config_param :url, :string
